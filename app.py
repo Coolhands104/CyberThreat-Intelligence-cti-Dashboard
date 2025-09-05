@@ -21,9 +21,9 @@ import pandas as pd
 import streamlit as st
 
 # --------------- 🔑 API KEYS (embed here) --------------- #
-VT_API_KEY = "e1e378c704b941cbb79f944ac16a8f8b0b1aa503e2f88ade7f30af15dee7be1f"
-ABUSEIPDB_API_KEY = "3d810471e69b812b13153de53c8ea20423c7119e710d5795659f54c4da5af494b86360f200106e7f"
-OTX_API_KEY = "05988d2ef602208a63102992a210839930831172374b00dba2ad9d3634158673"  # optional
+VT_API_KEY = "YOUR_KEY"
+ABUSEIPDB_API_KEY = "YOUR_KEY"
+OTX_API_KEY = "YOUR_KEY"  # optional
 
 # --------------- Helpers --------------- #
 
@@ -301,3 +301,4 @@ elif run and not ioc_value:
 
 st.markdown("---")
 st.caption("Educational demo. Do not push real API keys to public GitHub repos.")
+
